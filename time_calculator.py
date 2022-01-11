@@ -37,7 +37,7 @@ def add_time(start, duration, day=None):
         modifier = "PM" if modifier == "AM" else "AM"
         modifiers_later += 1
 
-    if modifiers_later % 2 != 0: #syntax from Beau, means if the modifier is not even (i.e. AM - PM - AM)
+    if modifiers_later % 2 != 0: 
         if initial_modifier == "PM":
             modifiers_later += 1
         else:
@@ -47,10 +47,10 @@ def add_time(start, duration, day=None):
 
     new_time = f"{hour}:{str(minute).zfill(2)} {modifier}"
 
-    #logic from Beau for most part, code original+snippets from Beau
+    
     if day:
         weekday = days_of_week.index(day.title())
-        weekday_new = int((weekday + days_later) % 7) #syntax from Beau, means looking for the correct day
+        weekday_new = int((weekday + days_later) % 7)
         new_time += f", {days_of_week[weekday_new]}"
 
     if days_later == 1:
