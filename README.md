@@ -36,9 +36,9 @@ add_time("6:30 PM", "205:12")
 
 ### Development
 
-Write your code in `time_calculator.py`. For development, you can use `main.py` to test your `time_calculator()` function. Click the "run" button and `main.py` will run.
+Write my code in `time_calculator.py`. Possibly, I can use `main.py` to test `time_calculator()` function. Click the "run" button and `main.py` will run.
 
 ### Testing 
 
-The unit tests for this project are in `test_module.py`. We imported the tests from `test_module.py` to `main.py` for your convenience. The tests will run automatically whenever you hit the "run" button.
+The unit tests for this project are in `test_module.py`. I imported the tests from `test_module.py` to `main.py`. The tests will run automatically.
 
